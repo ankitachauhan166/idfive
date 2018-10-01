@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Ankita">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>idfive</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script type="text/javascript" src="js/menu.js"></script>
+        <script>
+        function toggleMenu() {
+            var menuBox = document.getElementById('menu_list'); 
+            if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
+            menuBox.style.display = "none";
+            }
+            else { // if is menuBox hidden, display it
+            menuBox.style.display = "block";
+            }
+        }
+    </script>
+    </head>
+    <body>
+        <div class="part1">
+           <div class="top-header">
+              <header id="header-logo">
+              <div class="logo"></div> 
+              <div class="nav_menu">
+                  <div class="menu"><span>Menu</span></div>
+                  <div class="hamburger"  onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                  </div>
+                  <div class="menu-list" id="menu_list">
+                        <div class="menu-item">Lorem</div>
+                        <div class="menu-item">Ipsum</div>
+                        <div class="menu-item">Dolor</div>
+                  </div>
+              </div>
+            </header>
+            <div id="main-header">
+                <div class="main-text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div>
+                <div class="cta">
+                    <span class="cta-button">
+                        CTA-Button
+                    </span>
+                </div>
+                
+            </div>
+           </div>
+           <div class="chevron"><span>˅</span></div>
+        </div>
+        <div class="part2">
+            <div class="text-part2">
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            </div>
+            <div class="list-image">
+                <ul>
+                    <li><div class= "list-item" id="image1"><div id="message"></div></div><span>Lorem ipsum dolor sit amet</span></li>
+                    <li><div class= "list-item" id="image2"><div id="plane"></div></div><span>Lorem ipsum dolor sit amet</span></li>
+                    <li><div class= "list-item" id="image3"><div id="rocket"></div></div><span>Lorem ipsum dolor sit amet</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="part3">
+                <div class="text-part3">
+                    <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </span>
+                </div>
+                <div class="cta2">
+                    <span class="cta-button">
+                        CTA-Button
+                    </span>
+                </div>
+        </div>
+        <div class="part4">
+            <div class="row1of4">
+                    <div id="image-row1of4-mobile"></div>
+                <div class="text-row1of4">
+                    <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    </span>
+                </div>
+                <div id="image-row1of4"></div>
+            </div>
+            <div class="row2of4">
+                <div id="image-row2of4"></div>
+                <div class="text-row2of4">
+                        <span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="part5">
+            <div class="footer" id="idfive-logo"><div class="logo"></div></div>
+            <div class="footer"><div class="address">
+                <p>81 Mosher Street, Third Floor </p>
+                <p>Baltimore, Maryland 21217</p>
+                <p>410.837.5555</p>
+            </div></div>
+            <div class="footer"><div class="contact">
+                <p>Contact Us </p>
+                <p>Employment Opportunities </p>
+                <p>Privacy Policy </p>
+            </div></div>
+            <div class="footer"><div class="social">
+                <div class="social-icon">
+                    <div class="facebook"><div id="facebook-icon"></div></div>
+                    <div class="twitter"><div id="twitter-icon"></div></div>
+                </div>
+                <div class="copyright"><span>Copyright © 2009-2018. </span>
+                </div>
+                <div><p>All rights reserved. </p>
+                </div>
+            </div></div>
+        </div>
+        <div class="part6">
+            <div class="close"><span>CLOSE</span><div class="close-icon"></div></div>
+            <div class="footer-text">
+                <p class="about">About us</p>
+                <p class="about">Our Work</p>
+                <p class="about">Meet the Team</p>
+                <p class="contact">Contact</p>
+                <p class="contact">Carrers</p>
+                <p class="contact">Blog</p>
+            </div>
+            <div class="search-total">
+                <input placeholder="Search" type="text">
+                <div class="wrap-button"><button class="search"></button></div>
+            </div>
+        </div>
+    </body>
+</html>
